@@ -1,7 +1,9 @@
 // import { useState, useEffect } from 'react';
 import './App.css';
+import { Counter } from './components/Counter';
 import { Profile } from './components/Profile';
 import { Rendering } from './components/Rendering';
+
 
 function App() {
   const user = {
@@ -23,6 +25,9 @@ function App() {
       </div>
       <div>
         <Rendering products={products} />
+      </div>
+      <div>
+        <Counter />
       </div>
     </>
   );
