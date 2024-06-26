@@ -1,7 +1,7 @@
 // import { useState, useEffect } from 'react';
 import './App.css';
 // import { Square } from './components/Square';
-import { Board } from './components/Board';
+import { Game } from './components/Game';
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <Board />
+        <Game />
       </div>
     </>
   );
